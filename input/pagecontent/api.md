@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
         "text": "Rase"
     },
     "subject": {
-        "reference": "Patient/47510232717"
+        "reference": "Patient/1234567"
     },
     "recordedDate": "2026-01-17T09:30:32+02:00",
     "participant": [
@@ -124,73 +124,93 @@ HTTP/1.1 200 OK
 ```
 HTTP/1.1 200 OK
 
-{"resource": {
+{
     "resourceType": "Condition",
-    "id": "PREGN_123",
-    "contained": [{
-        "resourceType": "PractitionerRole",
-        "id": "participant",
-        "practitioner": {
-            "identifier": {
-                "system": "https://fhir.ee/sid/pro/est/pho",
-                "value": "D98765"
+    "id": "1.3.6.1.4.1.28284.1.3.2.2.8-REF_8d487501-ffae-4391-959b-3343416fb1a0-64-1",
+    "contained": [
+        {
+            "resourceType": "PractitionerRole",
+            "id": "participant",
+            "practitioner": {
+                "identifier": {
+                    "system": "urn:oid:1.3.6.1.4.1.28284.6.2.4.9",
+                    "value": "D04766"
+                }
             },
-            "display": "Mari Maasikas"
-        },
-        "organization": {
-            "identifier": {
-                "system": "https://fhir.ee/sid/org/est/br",
-                "value": "11073901"
-            },
-            "display": "Doktor Sirje Lille Hambaravi OÜ"
+            "organization": {
+                "identifier": {
+                    "system": "https://fhir.ee/sid/org/est/br",
+                    "value": "90006399"
+                }
+            }
         }
-    }],
+    ],
     "extension": [
         {
             "url": "http://hl7.org/fhir/StructureDefinition/fm-base-document",
             "valueIdentifier": {
-                "system": "DokumendiNumbriOID",
-                "value": "AMB_292045315"
+                "system": "1.3.6.1.4.1.28284.1.3.2.2.8",
+                "value": "REF_8d487501-ffae-4391-959b-3343416fb1a0"
             }
         },
         {
             "url": "http://hl7.org/fhir/StructureDefinition/fm-base-document-type",
             "valueCoding": {
                 "system": "https://fhir.ee/CodeSystem/dokumendi-tyyp",
-                "code": "2",
-                "display": "ambulatoorne epikriis"
+                "code": "64",
+                "display": "Saatekirja vastus"
             }
         }
     ],
-    "clinicalStatus": {"coding": [{
-        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "code": "active",
-        "display": "Active"
-    }]},
-    "verificationStatus": {"coding": [{
-        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-        "code": "unconfirmed",
-		"display": "Unconfirmed"
-    }]},
+    "clinicalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                "code": "active",
+                "display": "Active"
+            }
+        ]
+    },
+    "verificationStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "unconfirmed",
+                "display": "Unconfirmed"
+            }
+        ]
+    },
     "code": {
-        "coding": [{
-            "system": "http://snomed.info/sct",
-            "code": "77386006",
-            "display": "Rase"
-        }],
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "77386006",
+                "display": "Rase"
+            }
+        ],
         "text": "Rase"
     },
-    "subject": {"reference": "Patient/15638"},
-    "recordedDate": "2024-11-16T00:00:00+02:00",
-    "participant": [{
-        "function": {"coding": [{
-            "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
-            "code": "author",
-            "display": "Author"
-        }]},
-        "actor": {"reference": "#participant"}
-    }]
-}}
+    "subject": {
+        "reference": "Patient/1234567"
+    },
+    "recordedDate": "2026-01-17T09:30:32+02:00",
+    "participant": [
+        {
+            "function": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                        "code": "author",
+                        "display": "Author"
+                    }
+                ]
+            },
+            "actor": {
+                "reference": "#participant"
+            }
+        }
+    ]
+}
 ```
 
 

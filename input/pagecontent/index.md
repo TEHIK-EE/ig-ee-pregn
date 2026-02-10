@@ -1,7 +1,7 @@
 # Raseduse fakti tuvastamine (PREGN)
 
 ### Üldine informatsioon
-Raseduse fakti tuvastamise teenus (PREGN) is responsible for creating and updating pregnancy facts and events.
+Raseduse fakti tuvastamise teenus (PREGN) loob ja uuendab rasedusega seotud fakte ja sündmusi.
 Teenuse kaudu saab pärida patsiendi aktiivseid rasedusi. Päring tagastab FHIR Condition ressursi.
 
 ### Arendusvahendid ja lähtekood

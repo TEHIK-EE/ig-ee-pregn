@@ -152,6 +152,8 @@ pages:
     title: Home
   api.md:
     title: PREGN API
+  permissions.md:
+    title: Õigused API otspunktidele
   downloads.xml:
     title: Downloads
   contacts.md:
@@ -191,6 +193,7 @@ menu:
   Home: index.html
   Guidance:
     PREGN API: api.html
+    Õigused API otspunktidele: permissions.html
   Artifacts: artifacts.html
   About:
     Downloads: downloads.html
