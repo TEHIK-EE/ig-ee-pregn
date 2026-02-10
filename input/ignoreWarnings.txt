@@ -1,0 +1,3 @@
+== Suppressed Messages ==
+
+# List of the lines (or parts) that should be ignored in QA report
