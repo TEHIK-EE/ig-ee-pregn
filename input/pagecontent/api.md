@@ -1,6 +1,7 @@
 ## API kirjeldus
 
-Käesolevas juhendis kirjeldatakse PREGN teenuse poolt toetatud FHIR otspunktid ja operatsioonid.
+Käesolevas juhendis kirjeldatakse PREGN teenuse poolt pakutavaid äriloogikal põhinevaid 
+REST-otspunkte ning nende kaudu tagastatavaid FHIR standardile vastavaid ressursse.
 Toodud näidispäringud ja näidisvastused ei kajasta reaalseid andmeid aga vastavad oodatud/toetatud ressursi struktuurile.
 
 ### Patsiendi aktiivse raseduse pärimine
@@ -111,7 +112,7 @@ HTTP/1.1 200 OK
 }
 ```
 
-#### Päring patsiendi identifier alusel
+#### Päring patsiendi id alusel
 
 **URL**: `GET [base]/pregnancy/active?patient.id=[patientId]`
 
