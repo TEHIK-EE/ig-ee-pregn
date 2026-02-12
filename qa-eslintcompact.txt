@@ -1,0 +1,30 @@
+PREGN
+=========================================
+
+Generic: line 0, col 0, Error - The link 'definitions.xml.zip' for "XML" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'definitions.json.zip' for "JSON" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.xml.zip' for "XML" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.json.zip' for "JSON" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 1124, Warning - Unable to check whether the code is in the value set 'http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0' because the code system urn:iso:std:iso:3166 was not found (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 1124, Warning - A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 3331, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 3446, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 3557, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 3670, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 3779, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 3892, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4003, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4115, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4228, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4335, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4445, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4555, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4672, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 4781, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-ee.fhir.pregn.json: line 1, col 5459, Info - Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0 (BUSINESSRULE)
+
+err = 0, warn = 5, info = 15
+IG Publisher Version: 2.1.0

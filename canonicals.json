@@ -1,0 +1,9 @@
+[
+  {
+    "id" : "ee.fhir.pregn",
+    "type" : "ImplementationGuide",
+    "url" : "https://fhir.ee/pregn/ImplementationGuide/ee.fhir.pregn",
+    "version" : "0.1.0",
+    "name" : "PREGN"
+  }
+]

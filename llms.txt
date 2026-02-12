@@ -1,0 +1,17 @@
+# ee.fhir.pregn#0.1.0: PREGN - Raseduse fakti tuvastamine
+
+## Pages
+
+* [Home](index.md)
+* [Contacts](contacts.md)
+* [Artifacts Summary](artifacts.md)
+* [Search](search.md)
+* [PREGN API](api.md)
+* [Õigused API otspunktidele](permissions.md)
+* [Downloads](downloads.md)
+
+## Resources
+
+### ImplementationGuides
+
+* [PREGN - Raseduse fakti tuvastamine](index.md)

@@ -1,0 +1,7 @@
+{
+  "version" : "0.1.0",
+  "fhirVersion" : ["5.0.0"],
+  "date" : "20260212154830",
+  "name" : "ee.fhir.pregn",
+  "jurisdiction" : "urn:iso:std:iso:3166#EE"
+}
